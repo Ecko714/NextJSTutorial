@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "vercel-build": "pnpm i && npm run build",
-    "build": "next build",
+    "build": "echo 'building...' && next build",
     "dev": "next dev",
     "start": "next start"
   },
